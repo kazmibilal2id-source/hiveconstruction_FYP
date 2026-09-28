@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Property } from "@/lib/types";
+import { cn } from "@/lib/utils";
 
 const schema = z.object({
   title: z.string().min(3),
